@@ -1,5 +1,5 @@
 - pathPrefix:
-    - /dev-site-documentation-template/
+    - /developer-distribution/adobe-connect/
 
 - versions:
     - [v2.0](/) selected
