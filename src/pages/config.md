@@ -1,17 +1,12 @@
 - pathPrefix:
     - /developer-distribution/adobe-connect/
 
-- versions:
-    - [v2.0](index.md) selected
-    - [v1.4](https://github.com/AdobeDocs/dev-site) 
-
 - pages:
-    - [Cat Analytics](index.md)
-    - [Guides](guides/index.md)
-    - API Reference
-        - [Cat Reference v2.0](api/index.md)
-        - [Cat Reference v1.4](api/1-4.md)
-    - [Support](support/index.md)
+    - [Developer Distribution](https://developer.adobe.com/developer-distribution/)
+    - Documentation
+        - [Creative Cloud](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/)
+        - [Experience Cloud](https://developer.adobe.com/developer-distribution/experience-cloud/docs/guides/)
+        - [Adobe Connect](guides/index.md)
 
 - subPages:
     - [Get Started](guides/index.md) 
