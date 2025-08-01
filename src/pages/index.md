@@ -7,9 +7,9 @@ contributors:
 
 <HeroSimple slots="heading, text"/>
 
-# Cat Analytics API
+# Adobe Developer Distribution
 
-Cat Product API offers limitless ways to integrate your most important customer data into key business processes. Cat Product API offer limitless ways.
+A self-service submission portal for developers to publish listings that extend Adobe products, on the Adobe marketplaces.
 
 <Resources slots="heading, links"/>
 
@@ -20,11 +20,7 @@ Cat Product API offers limitless ways to integrate your most important customer 
 
 ## Overview
 
-This documentation provides instructions for Catt Analytics 2.0 APIs. For working with Cat Analytics APIs, see [Cat Analytics API Documentation](https://github.com/AdobeDocs/dev-site).
-
-The Cat Analytics APIs are a collection of APIs that power Cat Analytics products like Cat Workspace.
-The APIs allow for the creation of data rich user interfaces that you can use to manipulate and integrate data.
-You can also create reports to explore, get insights, or answer important questions about your data.
+Adobe Developer Distribution is a new surface for developers to submit and manage their listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. This document provides guidance on how to use the Developer Distribution surface for listing submissions. Documentation will be updated as future releases support for additional Adobe products.​
 
 ## Discover
 
