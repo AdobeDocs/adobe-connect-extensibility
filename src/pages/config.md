@@ -10,10 +10,11 @@
 
 - subPages:
     - [Get Started](guides/index.md) 
-        - [Dummy an OAuth Client](guides/dummy_oauth_client/index.md) 
-        - [Dummy OAuth using POSTMAN](guides/dummy_using_postman/index.md) 
-    - [Cat Metrics API](guides/dummy_metrics_api/index.md) 
-    - [Migrating](guides/migrating/index.md) 
+    - [Submission Guidelines](guides/submission_guidelines/index.md)
+        - [Creating a listing](guides/submission_guidelines/create_listing/index.md) 
+        - [Listing details](guides/submission_guidelines/listing_details/index.md) 
+        - [Version Details](guides/submission_guidelines/version_details/index.md) 
+        - [Version Packaging](guides/submission_guidelines/version_packaging/index.md) 
     - [Overview](support/index.md) header
         - [Help](support/index.md) 
         - [FAQ](support/FAQ/index.md) 
