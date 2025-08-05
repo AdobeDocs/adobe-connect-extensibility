@@ -57,7 +57,7 @@ Learn how to package your Adobe Connect Custom Pods for successful submission.
 
 ### API References
 
-[Try the API](api/index.md)
+[SDK Reference](https://developer.adobe.com/adobe-connect-sdk/sdk/)
 
 Try the Analytics API with Swagger UI. Explore, make calls, with full endpoint descriptions.
 
