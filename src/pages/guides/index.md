@@ -17,15 +17,6 @@ A self-service submission portal for developers to publish listings that extend 
 
 Adobe Developer Distribution is a new surface for developers to submit and manage their listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. This document provides guidance on how to use the Developer Distribution surface for listing submissions. Documentation will be updated as future releases support for additional Adobe products.​
 
-## Discover
-
-<DiscoverBlock width="100%" slots="heading, link, text"/>
-
-### Get Started
-
-[Quickstart Guide](guides/index.md)
-
-Get started with the Cat Analytics APIs.
 
 <DiscoverBlock slots="heading, link, text"/>
 
@@ -55,11 +46,11 @@ Learn how to package your Adobe Connect Custom Pods for successful submission.
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-### API References
+### SDK References
 
 [SDK Reference](https://developer.adobe.com/adobe-connect-sdk/sdk/)
 
-Try the Analytics API with Swagger UI. Explore, make calls, with full endpoint descriptions.
+Read through the complete reference to the Methods, Properties, and Events available in the SDK. Redirects to Adobe Developer Website. 
 
 ## Contributing
 
