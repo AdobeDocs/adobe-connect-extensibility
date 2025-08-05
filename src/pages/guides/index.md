@@ -1,8 +1,8 @@
 ---
-title: Overview - Cat Analytics
-description: This is the overview page of Cat Analytics
+title: Developer Distribution Documentation for Adobe Connect 
+description: This documentation relates to the Adobe Connect Custom Pods submission and review on Adobe Developer Distribution
 contributors:
-  - https://github.com/icaraps 
+  - https://github.com/skhadiya
 ---
 
 <HeroSimple slots="heading, text"/>
@@ -12,11 +12,6 @@ contributors:
 A self-service submission portal for developers to publish listings that extend Adobe products, on the Adobe marketplaces.
 
 <Resources slots="heading, links"/>
-
-#### Resources
-
-* [Quickstart Guide](https://developer.adobe.com)
-* [Cat Analytics Github Repo](https://github.com/AdobeDocs/dev-site)
 
 ## Overview
 
@@ -34,29 +29,29 @@ Get started with the Cat Analytics APIs.
 
 <DiscoverBlock slots="heading, link, text"/>
 
-### Guides
+### Submission Guidelines
 
-[Calculated Metrics API](guides/dummy-metrics-api/index.md)
+[Create a new listing](guides/create_listing/index.md)
 
-Returns information on the user's company that is necessary for making other Cat Analytics API calls.
-
-<DiscoverBlock slots="link, text"/>
-
-[Segments API](guides/dummy-oauth-client/index.md)
-
-Provides configuration guidance and best practices for the /segments endpoint.
+Learn about creating a custom pod listing on Developer Distribution
 
 <DiscoverBlock slots="link, text"/>
 
-[Reporting Guide API](guides/dummy-using-postman/index.md)
+[Listing details](guides/listing_details/index.md)
 
-Provides configuration guidance and best practices for the /reports endpoint.
+Learn how to add listing details for your Adobe Connect Custom Pods. 
 
 <DiscoverBlock slots="link, text"/>
 
-[Migrating from 1.4 to 2.0](guides/migrating/index.md)
+[Version details](guides/version_details/index.md)
 
-For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.
+Learn how to add version details for your Adobe Connect Custom Pods.
+
+<DiscoverBlock slots="link, text"/>
+
+[Version packaging](guides/version_packaging/index.md)
+
+Learn how to package your Adobe Connect Custom Pods for successful submission. 
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
