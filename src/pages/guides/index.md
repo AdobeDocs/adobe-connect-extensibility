@@ -1,26 +1,80 @@
 ---
-title: Guides - Cat Analytics
-description: This is the guides overview page of Cat Analytics 
+title: Overview - Cat Analytics
+description: This is the overview page of Cat Analytics
+contributors:
+  - https://github.com/icaraps 
 ---
 
-# Get Started
+<HeroSimple slots="heading, text"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada feugiat enim vel facilisis. Nunc eget enim eu lacus lobortis tincidunt a nec est. Nunc quis sapien quis orci rutrum sollicitudin. Nullam vehicula ultricies mauris, id aliquam justo aliquam vitae. Nam quis tincidunt ante. Curabitur sagittis aliquam elit, at auctor enim maximus et. Praesent in lectus facilisis, tempor magna eget, bibendum est. In quis ornare mi. Donec vestibulum viverra magna, non mollis leo vestibulum sit amet. Aenean euismod nulla augue, sit amet vehicula nibh faucibus vel. Fusce at est lacus. Nullam ante nulla, elementum nec ornare in, placerat luctus enim. Suspendisse vitae lacinia nibh. Pellentesque porta accumsan est at volutpat. Nulla aliquam dictum faucibus.
+# Adobe Developer Distribution
 
-## Authentication
+A self-service submission portal for developers to publish listings that extend Adobe products, on the Adobe marketplaces.
 
-Mauris pellentesque ornare nulla. Proin fermentum elementum velit non consequat. Donec euismod nisl sed tellus sagittis, a consequat leo rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse neque justo, porttitor eget volutpat sed, suscipit nec mauris. Etiam nec egestas purus. Praesent suscipit in elit cursus consectetur. Duis blandit pulvinar odio, eget volutpat magna vestibulum interdum. Ut sed ultrices risus, vel gravida nisi. Sed vitae rutrum felis. Aliquam at eros molestie, sagittis augue sed, venenatis erat. Praesent at consectetur tellus, ut vehicula nunc. Pellentesque aliquet condimentum neque, fermentum consequat neque viverra vel. Aliquam accumsan dignissim turpis vitae consequat. Aenean id justo vel diam sollicitudin posuere. Sed eu mauris ac elit porta commodo et varius sem.
+<Resources slots="heading, links"/>
 
-## OAuth
+#### Resources
 
-Donec imperdiet tempus ligula, sit amet pellentesque justo pharetra quis. Duis sed lacus diam. Maecenas sollicitudin diam sit amet pharetra placerat. Aliquam egestas lectus et tellus sagittis, venenatis finibus nisi volutpat. Cras laoreet, nisl sed faucibus laoreet, nibh arcu pretium enim, eget elementum ligula tellus vitae lorem. Aenean consequat in lorem at venenatis. Phasellus consequat dolor in libero vulputate rutrum. Nulla sit amet augue fringilla, elementum libero eget, accumsan velit. Suspendisse et lorem ornare, congue justo vel, ultrices felis. Ut et aliquet eros. Nulla facilisi. Nulla vitae velit a enim egestas eleifend. Etiam malesuada orci non mollis vulputate. Praesent id augue eget sapien lobortis bibendum. Praesent placerat tellus dui, vel facilisis magna condimentum in.
+* [Quickstart Guide](https://developer.adobe.com)
+* [Cat Analytics Github Repo](https://github.com/AdobeDocs/dev-site)
 
-[Adobe I/O Console](https://console.adobe.io).
+## Overview
 
-<InlineAlert variant="info" slots="text"/>
+Adobe Developer Distribution is a new surface for developers to submit and manage their listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. This document provides guidance on how to use the Developer Distribution surface for listing submissions. Documentation will be updated as future releases support for additional Adobe products.​
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna tellus, fringilla sit amet lorem eget, dignissim pellentesque ligula. Donec nec dolor vitae leo laoreet aliquam vehicula at dui. Integer in tortor lacus. Aliquam convallis, lorem ac consectetur sodales, tellus.
+## Discover
 
-## JWT
+<DiscoverBlock width="100%" slots="heading, link, text"/>
 
-Donec imperdiet tempus ligula, sit amet pellentesque justo pharetra quis. Duis sed lacus diam. Maecenas sollicitudin diam sit amet pharetra placerat. Aliquam egestas lectus et tellus sagittis, venenatis finibus nisi volutpat. Cras laoreet, nisl sed faucibus laoreet, nibh arcu pretium enim, eget elementum ligula tellus vitae lorem. Aenean consequat in lorem at venenatis. Phasellus consequat dolor in libero vulputate rutrum. Nulla sit amet augue fringilla, elementum libero eget, accumsan velit. Suspendisse et lorem ornare, congue justo vel, ultrices felis. Ut et aliquet eros. Nulla facilisi. Nulla vitae velit a enim egestas eleifend. Etiam malesuada orci non mollis vulputate. Praesent id augue eget sapien lobortis bibendum. Praesent placerat tellus dui, vel facilisis magna condimentum in.
+### Get Started
+
+[Quickstart Guide](guides/index.md)
+
+Get started with the Cat Analytics APIs.
+
+<DiscoverBlock slots="heading, link, text"/>
+
+### Guides
+
+[Calculated Metrics API](guides/dummy-metrics-api/index.md)
+
+Returns information on the user's company that is necessary for making other Cat Analytics API calls.
+
+<DiscoverBlock slots="link, text"/>
+
+[Segments API](guides/dummy-oauth-client/index.md)
+
+Provides configuration guidance and best practices for the /segments endpoint.
+
+<DiscoverBlock slots="link, text"/>
+
+[Reporting Guide API](guides/dummy-using-postman/index.md)
+
+Provides configuration guidance and best practices for the /reports endpoint.
+
+<DiscoverBlock slots="link, text"/>
+
+[Migrating from 1.4 to 2.0](guides/migrating/index.md)
+
+For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.
+
+<DiscoverBlock width="100%" slots="heading, link, text"/>
+
+### API References
+
+[Try the API](api/index.md)
+
+Try the Analytics API with Swagger UI. Explore, make calls, with full endpoint descriptions.
+
+## Contributing
+
+We encourage you to participate in our open documentation initiative, if you have suggestions, corrections, additions
+or deletions for this documentation, check out the source from [this github repo](https://github.com/adobe/gatsby-theme-spectrum-example), and submit a pull
+request with your contribution. For more information, refer to the [contributing page](support/contribute/index.md).
+
+## API Requests & Rate Limits
+
+The timeout for API requests through adobe.io is currently *60 seconds*.
+
+The default rate limit for an Cat Analytics Company is *120 requests per minute*. (The limit is enforced as *12 requests every 6 seconds*).
+When rate limiting is being enforced you will get `429` HTTP response codes with the following response body: `{"error_code":"429050","message":"Too many requests"}`.
