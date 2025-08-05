@@ -1,5 +1,5 @@
 - pathPrefix:
-    - /developer-distribution/adobe-connect/
+    - /developer-distribution/adobe-connect/docs/
 
 - pages:
     - [Developer Distribution](https://developer.adobe.com/developer-distribution/)
