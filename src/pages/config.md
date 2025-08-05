@@ -15,9 +15,4 @@
         - [Listing details](guides/submission_guidelines/listing_details/index.md) 
         - [Version Details](guides/submission_guidelines/version_details/index.md) 
         - [Version Packaging](guides/submission_guidelines/version_packaging/index.md) 
-    - [Overview](support/index.md) header
-        - [Help](support/index.md) 
-        - [FAQ](support/FAQ/index.md) 
-        - [How to contribute](support/contribute/index.md) 
-    - [Community](support/community/index.md) header
-        - [Information](support/community/index.md) 
+
