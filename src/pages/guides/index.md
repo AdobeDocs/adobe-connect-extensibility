@@ -22,25 +22,25 @@ Adobe Developer Distribution is a new surface for developers to submit and manag
 
 ### Submission Guidelines
 
-[Create a new listing](guides/create_listing/index.md)
+[Create a new listing](guides/submission_guidelines/create_listing/index.md)
 
 Learn about creating a custom pod listing on Developer Distribution
 
 <DiscoverBlock slots="link, text"/>
 
-[Listing details](guides/listing_details/index.md)
+[Listing details](guides/submission_guidelines/listing_details/index.md)
 
 Learn how to add listing details for your Adobe Connect Custom Pods. 
 
 <DiscoverBlock slots="link, text"/>
 
-[Version details](guides/version_details/index.md)
+[Version details](guides/submission_guidelines/version_details/index.md)
 
 Learn how to add version details for your Adobe Connect Custom Pods.
 
 <DiscoverBlock slots="link, text"/>
 
-[Version packaging](guides/version_packaging/index.md)
+[Version packaging](guides/submission_guidelines/version_packaging/index.md)
 
 Learn how to package your Adobe Connect Custom Pods for successful submission. 
 
